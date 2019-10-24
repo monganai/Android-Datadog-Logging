@@ -1,5 +1,17 @@
-# Android---Datadog-Logging
+# Android-Datadog-Logging
 Send logs directly to Datadog from your Android application 
+
+*Default required variables*
+Note - Modify as required for your specific setup
+More information regarding these settings can be found here:
+https://docs.datadoghq.com/api/?lang=bash#send-logs-over-http
+
+DD_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxx";                            //Enter your Datadog API key as a string.
+DD_ENDPOINT = "https://http-intake.logs.datadoghq.com/v1/input/";   // change to eu endpoint for european accounts
+DD_SERVICE = "DataLog";                                             // Default service
+DD_SOURCE = "Android";                                              // Source is Android
+DD_HOSTNAME = android.os.Build.MODEL;                               // Device model is grabbed as hostname
+
 
 Usage
 ------------------------
