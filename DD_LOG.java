@@ -1,14 +1,9 @@
-package com.example.datalog;
-
 import android.util.Log;
-
 import org.json.JSONObject;
-
 import java.io.DataOutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
-
 
 public class DD_LOG {
 
@@ -28,9 +23,6 @@ public class DD_LOG {
         this.currentQSize = 0;
         this.logQueue = new ArrayList<String>();
     }
-
-
-
 
     public static void sendLog(final String[] payload) {
         Thread thread = new Thread(new Runnable() {
