@@ -2,7 +2,7 @@
 Send logs directly to Datadog from your Android application 
 
 
-**Note - Work In Progress**
+**Note - Depricated**
 
 *Default required variables*
 Note - Modify as required for your specific setup
